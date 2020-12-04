@@ -1,0 +1,13 @@
+<view class="movie-group" wx:for="{{dataList}}">
+  <view class="info-group">
+    <view style="">{{item.xulie}}</view>
+    <view>{{item.movie_name}}</view>
+    <view>{{item.movie_area}}</view>
+    <view>{{item.movie_type}}</view>
+    <view>{{item.movie_post}}</view>
+  </view>
+  <view class="picture-group">
+    <image class="picture" src='{{item.moive_picture}}'>
+    </image>
+  </view>
+</view>

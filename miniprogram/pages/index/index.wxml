@@ -1,0 +1,25 @@
+<view class="cu-list menu card-menu margin-top" bindtap='openTopicPosts'  >
+    <view class="cu-item">
+        <view class="content padding-tb-sm">
+            <view>
+                <text class="cuIcon-title text-orange ">豆瓣电影Top250</text>
+            </view>
+            <view class="text-gray text-sm">
+            <text>经典电影</text>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="cu-list menu card-menu margin-top" bindtap='openMaoyanPosts'  >
+    <view class="cu-item">
+        <view class="content padding-tb-sm">
+            <view>
+                <text class="cuIcon-title text-orange ">猫眼电影Top100</text>
+            </view>
+            <view class="text-gray text-sm">
+            <text>经典电影</text>
+            </view>
+        </view>
+    </view>
+</view>
+  

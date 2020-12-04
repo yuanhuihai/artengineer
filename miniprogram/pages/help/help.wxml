@@ -1,0 +1,68 @@
+<view style="margin-left:2%;width:100%">
+<view>
+	查询请用如下方法
+</view>
+<view>
+  1-先查表中列名
+</view>
+<view>
+  select column_name from information_schema.columns where table_name='表名' 
+</view>
+<view>
+	2-根据列名查询内容
+</view>
+<view>
+  select 字段1 as a, 字段2 as b....from tablename
+</view>
+<view>
+  这里默认每次只能查询4列(主要是考虑到显示效果)。
+</view>
+<view style="margin-top:20px"></view>
+<view style="width:100%"> <text style="color:red">示例如下：</text></view>
+<view style="width:100%;margin-top:20px">
+  <view>数据表 read100</view>
+  <view>--------------------------</view>
+  <view>
+  <view style="width:50%;float:left"> RIQI </view>
+  <view style="width:50%;float:left"> SHULIANG </view>
+  </view>
+  <view>
+  <view style="width:50%;float:left"> 2020-11-26 04 </view>
+  <view style="width:50%;float:left"> 30 </view>
+  </view>
+  <view>
+  <view style="width:50%;float:left"> 2020-11-26 05 </view>
+  <view style="width:50%;float:left"> 40 </view>
+  </view>
+  <view>--------------------------</view>
+</view>
+
+<view style="width:100%"> 
+<view style="width:100%">查询列名</view>
+<view>--------------------------</view>
+<view style="width:100%"> select column_name from information_schema.columns where table_name='<text style="color:red">read100</text>' </view>
+<view>--------------------------</view>
+<view style="width:100%">查询列名结果</view>
+<view>--------------------------</view>
+<view style="width:100%">RIQI</view>
+<view style="width:100%">SHULIANG</view>
+<view>--------------------------</view>
+<view style="width:100%">查询数据表</view>
+<view>--------------------------</view>
+<view style="width:100%">select RIQI as <text style="color:red">a</text>,SHULIANG as <text style="color:red">b</text> from <text style="color:red">read100</text> </view>
+<view>--------------------------</view>
+<view style="width:100%">查询结果</view>
+<view>--------------------------</view>
+<view style="width:100%">a:2020-11-26 04</view>
+<view style="width:100%">b:30</view>
+<view style="width:100%">c:</view>
+<view style="width:100%">d:</view>
+<view style="width:100%">-----------------------</view>
+<view style="width:100%">a:2020-11-26 05</view>
+<view style="width:100%">b:40</view>
+<view style="width:100%">c:</view>
+<view style="width:100%">d:</view>
+</view>
+
+
+</view>

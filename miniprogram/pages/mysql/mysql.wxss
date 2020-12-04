@@ -1,0 +1,34 @@
+.info-group{
+  height: auto;
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px solid green;
+}
+
+.info-group .short{
+width: 100%;
+height: auto;
+}
+.info-group .short .data{
+  float: left;
+  width: 100%;
+  height: auto;
+
+}
+.info-group .short .area{
+  width: 100%;
+  height: auto;
+
+}
+.info-group .short .time{
+  width: 100%;
+  height: auto;
+}
+.info-group .short .thift{
+  width: 100%;
+  height: auto;
+}
+
+
+
+

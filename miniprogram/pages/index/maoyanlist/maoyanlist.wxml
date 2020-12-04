@@ -1,0 +1,12 @@
+<view class="movie-group" wx:for="{{dataList}}">
+  <view class="info-group">
+    <view style="">排名：{{item.A}}</view>
+    <view>{{item.B}}</view>
+    <view>{{item.C}}</view>
+    <view>{{item.D}}</view>
+  </view>
+  <view class="picture-group">
+    <image class="picture" src='{{item.E}}'>
+    </image>
+  </view>
+</view>

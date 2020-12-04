@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/mysql/mysql",
+    "pages/index/index",
+    "pages/index/maoyanlist/maoyanlist",
+    "pages/index/doubanlist/doubanlist",
+    "pages/help/help"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "MySql小助手",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#959394",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/mysql/mysql",
+        "iconPath": "/images/tab/database.png",
+        "selectedIconPath": "/images/tab/database_clicked.png",
+        "text": "MySql"
+      },
+      {
+        "pagePath": "pages/help/help",
+        "iconPath": "/images/tab/help.png",
+        "selectedIconPath": "/images/tab/help_clicked.png",
+        "text": "帮助"
+      }
+      
+    ]
+  },
+
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

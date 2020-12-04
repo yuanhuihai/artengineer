@@ -1,0 +1,45 @@
+<form bindsubmit="sqlSubmit" report-submit="true">
+	<view class="cu-form-group margin-top">
+		<view class="title">服务器：</view>
+		<input  placeholder="服务器地址"name='server' value='{{server}}'></input>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">用户:</view>
+		<input placeholder="用户名" name='user' value='{{user}}'></input>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">密码:</view>
+		<input placeholder="密码" name='pwd' value='{{pwd}}'></input>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">数据库实例名:</view>
+		<input placeholder="数据库实例名" name='basename' value='{{basename}}'></input>
+	</view>
+
+	<view  class="cu-form-group text-left">
+				<textarea  placeholder="请输入SQL语句:" name='sql' value='{{sql}}'>		</textarea>
+	</view>
+		
+  <view>
+		<button form-type="submit" type="primary" data-type="1" style="width:30%;float:left;margin-left:1%" >增删改</button>
+		<button form-type="submit" type="primary" data-type="2" style="width:30%;float:left;margin-left:1%" >查询列名</button>
+		<button form-type="submit" type="primary" data-type="3" style="width:36%;float:left;margin-left:1%" >查询数据表</button>
+	</view>
+	
+
+</form>
+
+<view >{{adu}}</view>
+
+<view wx:for="{{lieming}}">{{item.COLUMN_NAME}}</view>
+
+
+<view style="margin-top:20px" class="info-group" wx:for="{{posts}}">
+  <view class="short">
+    <view class="data">a:{{item.a}}</view>
+    <view class="area">b:{{item.b}}</view>
+    <view class="time">c:{{item.c}}</view>
+    <view class="thift">d:{{item.d}}</view>
+  </view>
+</view>
+	

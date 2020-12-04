@@ -1,0 +1,21 @@
+.movie-group{
+  height: 150px;
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px solid green;
+}
+
+.movie-group .info-group{
+  float: left;
+  width: 70%;
+  height: 100px;
+}
+.movie-group .picture-group{
+  width: 30%;
+  height: 140px;
+  float: right;
+}
+.picture-group .picture{
+  width: 100%;
+  height: 100%;
+}
